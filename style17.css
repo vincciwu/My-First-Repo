@@ -1,0 +1,102 @@
+.topnav {
+    background-color: grey;
+    overflow:hidden;
+
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+ 
+main {
+    display: flex;
+
+}
+
+main > * {
+    margin:5px;
+}
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.sushiImage {
+    width: 200px;
+    
+    margin: 20px;
+}
+.leftContainer {
+    width: 400px;
+    border: 1px solid black;
+    background-color:#00E0BF ;
+}
+
+.maintopContainer {
+    display:flex;
+ 
+    border: 1px solid black;
+    background-color: coral;
+
+}
+.mainHeaderImage {
+    margin: 10px;
+    width: 100 px;
+    height: 100px;
+
+}
+.headercontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.headercontent h1 {
+    font-weight: bold;
+}
+.mainBottomContainer {
+  
+    border: 1px solid black;
+    background-color: pink;
+    margin-top: 20px;
+}
+.secondHeader {
+    text-align: center;
+    flex-direction: column;
+    font-size: ;
+}
+.imagebuddyContainer {
+    display: flex;
+   justify-content: space-between;
+   padding: 10px;
+
+
+  
+}
+.imagebuddy {
+    width: 400px;
+    height:400px;
+}
+a.diet {
+    color:hotpink;
+}
+ul {
+   list-style-type: none;
+
+}
+ul > * {
+    margin: 10px;
+}
+
+
+ul li:first-child {
+font-weight: bold;
+}
